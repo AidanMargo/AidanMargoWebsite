@@ -1,0 +1,11 @@
+.navbar {
+    width: 300px;
+}
+
+#photo {
+    height: 300px;
+}
+.navlinks li {
+    list-style: none;
+    border: 2px solid black;
+}
