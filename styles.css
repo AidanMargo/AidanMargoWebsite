@@ -1,11 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+    display: flex;
+    background-color: rgb(240, 239, 239);
+}
 .navbar {
+    margin-left: 8%;
+    margin-top: 5%;
     width: 300px;
 }
 
 #photo {
     height: 300px;
+    width: 300px;
+    display: flex;
 }
-.navlinks li {
+.navlinks {
+    display: inline-block;
+    width: 300px;
+}
+/* Styling of navbar and color transitions of links */
+.navlinks li:nth-child(1) {
+    background-color: brown;
+    color: whitesmoke;
+}
+.navlinks li{
+    display:flex;
+    justify-content: space-between;
     list-style: none;
-    border: 2px solid black;
+    padding: 15px;
+    text-align: right;
+    background-color: #2A2727;
+    border: 1px solid rgb(24, 23, 23);
+    color: #656363;
+    background-position: 50% 50%;
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(brown, brown);
+    transition: background-size 0.3s, color, 0.3s;
+    cursor: pointer;
 }
+
+
+.navlinks li:hover {
+    color: #fff;
+    background-size: 100% 100% ;
+}
+/* Icons and their styling */
+#socialmedialinks{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    height: 75px;
+    width: 300px;
+    margin-top: 0px;
+    cursor: default;
+    background: rgb(240, 239, 239)
+    transition: 0.5s, background-color 0.5s;
+}
+
+#socialmedialinks a i {
+    display: inline-block;
+    margin: 0 5px;
+    color: rgb(63, 61, 61);
+}
+#socialmedialinks a i:hover {
+    color: brown;
+}
+
+/* main content */
+
+.content {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    margin: 5%;
+}
+
+.contentheader p {
+    text-align: left;
+    margin: 30px 0px 10px 25px;
+    font-size: 1.25rem;
+}
+
+#aboutme {
+    text-align: left;
+    height: auto;
+    margin: 35px;
+    font-size: 1.25rem;
+}
+#aboutme h1 {
+    font-weight: 600;
+}
+#aboutme h2 {
+    font-weight: 200;
+}
+
+.divider {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    }
