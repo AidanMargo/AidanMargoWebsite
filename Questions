@@ -1,3 +1,14 @@
 1. Explain "Background Positioning" and why in the navlinks li:hover it isn't background-color instead of color
 2. Why does the photo need to be display: flex in order to prevent a gap between it and the navlinks
 3. How can I clean up this code a bit?
+4. Why do the dino and rock images start at different positions, and thus need different margins
+     to be positioned on the same level?
+
+
+JS THINGS TO STUDY:
+
+- setInterval(()
+- window.
+- =>
+-getPropertyValue
+-getComputedStyle

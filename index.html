@@ -6,18 +6,19 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">  
     <title>Aidan Margo</title>
 </head>
 <body>
+<!-- Side Navbar -->
     <div class="navbar">
-        <img src="./images/jan sitting.jpg" alt="Aidan profile photo" id="photo">
+        <img src="./images/blueshirt.jpg" alt="Aidan profile photo" id="photo">
         <div class="navlinks">
             <ul>
                 <li><i class="fas fa-user"></i>About Me</li>
                 <li><i class="fas fa-file"></i>Resume</li>
                 <li><i class="fas fa-code-branch"></i>Personal Projects</li>
-                <li><i class="fas fa-address-card"></i>Contact</li>   
+                <li><i class="fas fa-address-card"></i>Contact</li>
             </ul>
             <div id="socialmedialinks">
                     <a href="https://www.twitter.com"><i class="fab fa-twitter fa-3x"></i></a>
@@ -26,24 +27,36 @@
             </div>
         </div>
     </div>
+<!-- Main body Content -->
     <div class="content">
+
         <div class="contentheader">
             <p>About Me</p>
             <hr class = "divider">
         </div>
+
         <div id="aboutme">
             <h1>Aidan Margo</h1>
-            <h2>Web Developer</h2>
         </div>
-        <table class="info">
-                <tr>
-                    <th>Name</th>
-                    <th>Birthday</th>
-                    <th>Location</th>
-                </tr>
-            </table>
+
+        <p class="info">I'm a Software Engineering student at Flatiron School. I'm a recent transplant from Minnesota, exploring Texas and
+            expanding my network as I strive to become a full time software engineer.
+            <br> 
+            <br>
+            Before beginning my journey with Flatiron School, I've spent time on and off of studying HTML and CSS in hopes to one day become
+            a Web Developer and software engineer. While that prior knowledge is proving to be helpful, I'm still learning more and more every day!
+            I'm still very new to Javascript, here's a little game I've taught myself to make!
+        </p>
         
+        <!-- Dino Game -->
+        <div id="game">
+            <img src="./images/dino.png" alt="Dinosaur" id="dino">
+            <img src="./images/rock.png" alt="Rock" id="rock">
+        </div>
+        <h1 id="score">0</h1>
     </div>
+
+    
 
 
 
