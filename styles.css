@@ -127,6 +127,22 @@ body {
     margin: auto;
 }
 /* game */
+
+#startbtn {
+    padding: 10px 15px;
+    margin: 10px;
+    background-color:#b9eeda ;
+    color: rgb(54, 54, 54);
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#startbtn:hover {
+    background-color: #97E8CA;
+}
+
 #game {
     width: 800px;
     height: 400px;
@@ -153,16 +169,18 @@ body {
     width: 50px;
     top: 300px;
     left: 325px;
+    
+}
+
+.rock-animation {
     -webkit-animation: rock 1.5s infinite;
 }
 
-#score {
-    margin: 10px 0;
-}
 @-webkit-keyframes rock {
     0% {left: 325px;}
     100% {left: -500px;}
 }
+
 
 .jump-animation {
    -webkit-animation: jump 0.5s;
@@ -173,4 +191,8 @@ body {
     50%{ top: 75px;}
     75%{ top:75px;}
     100%{ top:300px;}
+}
+
+#score {
+    margin: 10px 0;
 }

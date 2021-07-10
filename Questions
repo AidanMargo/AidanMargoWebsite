@@ -12,3 +12,7 @@ JS THINGS TO STUDY:
 - =>
 -getPropertyValue
 -getComputedStyle
+-location.reload
+
+- button.startbtn
+    - when clicked, run
